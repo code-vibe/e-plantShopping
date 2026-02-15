@@ -2,7 +2,7 @@
 
 A modern, interactive e-commerce plant shopping application built with React, Redux, and Vite. Browse, add plants to your cart, and manage your shopping experience with real-time state management.
 
-## 🌿 Features
+## Features
 
 - **Product Catalog**: Browse five categories of plants:
   - Air Purifying Plants
@@ -22,7 +22,7 @@ A modern, interactive e-commerce plant shopping application built with React, Re
 - **Real-time Updates**: UI updates instantly when cart changes
 - **Responsive Design**: Modern, user-friendly interface
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend**: React 18.2.0
 - **State Management**: Redux Toolkit 2.2.3 & React-Redux 9.1.1
@@ -30,7 +30,7 @@ A modern, interactive e-commerce plant shopping application built with React, Re
 - **Styling**: CSS
 - **Deployment**: GitHub Pages
 
-## 📋 Project Structure
+## Project Structure
 
 ```
 e-plantShopping/
@@ -51,7 +51,7 @@ e-plantShopping/
 └── README.md                     # This file
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Installation
 
@@ -83,7 +83,7 @@ npm run build
 npm run preview
 ```
 
-## 📦 Redux Architecture
+## Redux Architecture
 
 ### Store Structure
 ```javascript
@@ -101,7 +101,7 @@ npm run preview
 - `removeItem(name)` - Remove item from cart
 - `updateQuantity({ name, quantity })` - Update item quantity
 
-## 🎨 Key Components
+## Key Components
 
 ### ProductList.jsx
 - Displays all plant categories and products
@@ -122,7 +122,7 @@ npm run preview
 - Three reducer functions: addItem, removeItem, updateQuantity
 - Handles duplicate item detection (increments quantity vs. adds new)
 
-## 💳 Shopping Flow
+## Shopping Flow
 
 1. **Browse Products** - View plants organized by category
 2. **Add to Cart** - Click "Add to Cart" button on any plant
@@ -131,7 +131,7 @@ npm run preview
 5. **Remove Items** - Delete button removes item completely
 6. **Checkout** - Placeholder for future implementation
 
-## 🌐 Deployment
+## Deployment
 
 ### Deploy to GitHub Pages
 
@@ -147,7 +147,7 @@ The app will be live at: `https://code-vibe.github.io/e-plantShopping/`
 - `package.json` includes predeploy and deploy scripts
 - GitHub Pages builds from `gh-pages` branch
 
-## 📝 Tasks Completed
+## Tasks Completed
 
 - ✅ **Task 1**: Product listing with map() and Add to Cart functionality
 - ✅ **Task 2**: Redux reducer functions (addItem, removeItem, updateQuantity)
@@ -156,7 +156,7 @@ The app will be live at: `https://code-vibe.github.io/e-plantShopping/`
 - ✅ **Task 5**: Product page styling and functionality
 - ✅ **Task 6**: Global Redux store setup and GitHub Pages deployment
 
-## 🔧 Scripts
+## Scripts
 
 ```bash
 npm run dev          # Start development server
@@ -166,14 +166,14 @@ npm run deploy       # Deploy to GitHub Pages
 npm run lint         # Run ESLint
 ```
 
-## 📄 License
+## License
 
 This project is part of a coding curriculum and is open for educational purposes.
 
-## 👨‍💻 Author
+## Author
 
 **code-vibe** - Repository Owner
 
 ---
 
-**Paradise Nursery** - Where Green Meets Serenity 🌱
+**Paradise Nursery** - Where Green Meets Serenity
